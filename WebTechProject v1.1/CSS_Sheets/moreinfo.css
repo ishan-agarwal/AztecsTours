@@ -1,0 +1,47 @@
+body{
+border : 8px solid black;
+width:80%;
+height: 80%;
+margin: 20px auto;
+padding:2px 20px 20px 20px;
+font-family: source sans pro;
+background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.price{
+margin-left: 40px;
+color: #007ed9;
+}
+.name{
+color:#002946;
+text-transform:uppercase;
+letter-spacing: 0.2rem;
+text-align: center;
+}
+.first-para{
+border-left:5px solid #6b6b6b;
+padding-left:6px;
+font-size: 30px;
+font-family: source sans pro;
+}
+h2
+{
+color:#002e4f;
+font-size: 3.0rem;
+}
+.images{
+    text-align: center;
+    /* width: 100%;
+    height: 100%; */
+}
+.images iframe{
+    height: 20vw;
+    width: 30vw;
+}
+.images img{
+    width: 30vw;
+    height: auto;
+    padding-right: 5%;
+}

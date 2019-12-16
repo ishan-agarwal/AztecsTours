@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="../CSS_Sheets/add_new_camp_ground.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel = "icon" href ="../images/titleimg.JPG" type = "image/x-icon"> 
+
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+              </button>
+              <a href="start_page.html" class="navbar-brand"><i class="fa fa-picture-o" aria-hidden="true"></i> Aztecs</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+              <ul class="nav navbar-nav">
+                <li><a href="aboutus.html">About</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        
+<h1 id="heading"><b>Create a New Amusement Park</b></h1><br>
+
+
+<form method="post">
+
+<table cellspacing = "5px" cellpadding = "10"  class="table table-hover" style="background-color: white; width: 25%;">
+
+  <tr>
+    <td><h2>Name</h2></td>
+
+    <td><input type="text" placeholder="eg..London" size="30"   required></td>
+  </tr>
+  <tr>
+    <td><h2>Image URL</h2></td>
+    <td><input type="text" placeholder="https://source.com/TCCKhgNmO" size="30"   required></td>
+  </tr>
+  <tr>
+    <td><h2>Cost</h2></td>
+    <td><input type="text" placeholder="20,000Rs/-" size="30"   required></td>
+  </tr>
+  <tr>
+    <td><h2>Location</h2></td>
+    <td><input type="text" placeholder="Yellow Stone Park,Montana" size="30"   required></td>
+  </tr>
+  <tr>
+    <td><h2>Description</h2></td>
+    <td><input type="text" placeholder="Montana's super volcanic hotspot" size="30"   required></td>
+  </tr>
+  <tr>
+    <td><h2>Latitude</h2></td>
+    <td><input type="text" placeholder="69.69" size="30"   required></td>
+  </tr>
+  <tr>
+    <td><h2>Longitude</h2></td>
+    <td><input type="text" placeholder="42.042" size="30"   required></td>
+  </tr>  
+</table><br>
+<center><input type="submit" id="input_1" value="SUBMIT"></center>
+</form>
+<script>
+  var a = document.querySelectorAll("input");
+  a[0].onfocus=function(){a[0].style.borderColor = "blue"};
+  a[1].onfocus=function(){a[1].style.borderColor = "blue"};
+  a[2].onfocus=function(){a[2].style.borderColor = "blue"};
+  a[3].onfocus=function(){a[3].style.borderColor = "blue"};
+  a[4].onfocus=function(){a[4].style.borderColor = "blue"};
+
+  a[0].onblur=function(){a[0].style.borderColor = "white"};
+  a[1].onblur=function(){a[1].style.borderColor = "white"};
+  a[2].onblur=function(){a[2].style.borderColor = "white"};
+  a[3].onblur=function(){a[3].style.borderColor = "white"};
+  a[4].onblur=function(){a[4].style.borderColor = "white"};
+</script>
+</body>
+</html>

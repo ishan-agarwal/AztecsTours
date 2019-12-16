@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	background-image: url(../images/commentpic.jpg);
+    background-size: cover;
+}
+
+}
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+	font-size: 30px;
+
+}
+#navbar a{
+	color:white;
+	text-decoration:none;
+	font-size: 18px;
+	padding-right: 15px;
+
+}
+
+#main-header{
+	/*background-color:green;*/
+	margin-top: 5%;
+	color:black ;
+	padding: 10px;
+	text-align: center; 
+	font-size: 40px;
+}
+.container{
+	width:100%;
+	height: 40px;
+	/*margin: auto;*/
+	/*overflow: hidden;*/
+}
+
+.form{
+	margin-top: 50px;
+	text-align: center;
+	padding: 30px;
+	position: relative;
+
+}
+.input{
+	padding:15px 60px;
+	border-radius: 5px;
+	border-color: black;
+
+}
+
+.button{
+	padding:10px 90px;
+	background-color:#CBE894;
+	border: 5px;
+	border-color: #112966;
+	color: black ; 
+	font-size: 20px;
+	border-radius: 5px;
+}
+.button:hover{
+	background-color:#7CB58C;
+}

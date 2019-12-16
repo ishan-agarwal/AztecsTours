@@ -1,0 +1,47 @@
+#heading{
+text-align: center;
+font-size: 50px;
+color: #dbc200;
+text
+}
+
+body{
+  padding-top: 10%;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../images/addcamp.jpg);
+  background-size: cover;
+  
+}
+
+table
+{
+margin :auto;
+background-color:#dbddff;
+opacity: 0.75;
+font-family: 'Open Sans', sans-serif;
+}
+
+input{
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-color: black;
+  text-align: center;
+  background-color: ;
+  width: 250px;
+}
+
+#input_1{
+  padding: 10px 80px;
+  border-radius: 5px;
+  background-color: black;
+  color: white; 
+  border: 0px;
+}
+h1{
+  color:black;
+}
+h2{
+
+color : black;
+}
+
