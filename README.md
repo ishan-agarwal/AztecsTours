@@ -1,12 +1,2 @@
 # AztecsTours
-
-WebTechnologies-I Project
-
-
-Members:
-
-Ishan Agarwal (PES1201800291)
-
-Akash Kumar Rao (PES1201800089)
-
-Nitin Bindal (PES1201800199)
+A website for tourism and travel, focussing on both the guides as well as the tourists.
